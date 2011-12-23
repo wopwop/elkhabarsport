@@ -1,0 +1,190 @@
+/*
+Theme Name: Elkhabar Sport
+Author: Anis Bouraba
+Author URI: http://twitter.com/_niss
+Description: Elkhabar Sport new website
+Version: 1.0
+*/
+
+body{
+    direction: rtl;
+    background: none repeat scroll 0 0 #F0F1F2;
+}
+
+@font-face {
+    font-family: "GESSTwoMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("files/fonts/GESSTwoMedium.otf");
+}
+
+.box-shadow(@values: 0 1px 2px 1px #A5A5A5){
+    box-shadow: @values;
+    -moz-box-shadow: @values;
+    -webkit-box-shadow: @values;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    margin: 0;
+    background: #fff;
+    #logo{
+        width:232px;
+        float:right;
+    }
+    #header_ads{
+        width:728px;
+        float:left;
+    }
+    #menu_bar{
+        background: none repeat scroll 0 0 #D4021D;
+        border-bottom: 4px solid #45AAE8;
+        color: #FFFFFF;
+        padding: 7px;
+    }
+}
+
+
+#wrap{
+    margin: 0;
+    #content{
+        background: none repeat scroll 0 0 #FFFFFF;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+    }
+}
+
+#features{
+    padding-left: 14px;
+    padding-top: 7px;
+}
+
+#left-sidebar{
+    margin: 0;
+    padding-right:14px;
+    padding-top:7px;
+}
+
+#box{
+    margin: 0;
+    #last_news{
+        margin: 0;
+    }
+    #last_news li{
+        height: 22px;
+        margin: 0;
+        overflow: hidden;
+        margin-bottom: 5px;
+    }
+    #last_news li.alt{
+        background: #efefef;
+    }
+    #last_news li span{
+        margin-right: 4px;
+    }
+    #last_news li a{
+        padding-right: 5px
+    }
+    #last_news li.alt a{
+       
+    }
+}
+
+.title{
+    font-family: GESSTwoMedium;
+    background: url("http://www.springwise.com/_assets/img/underline.png") repeat-x scroll 0 50% transparent;
+    span{
+        background: #fff;
+        padding-left: 10px;
+        color:#D4021D;
+    }
+}
+
+#items-list{
+    width:220px;
+    float:right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    .ui-tabs-selected{
+        margin: 0;
+        background: none repeat scroll 0 0 #F2F2F2;
+    }
+    li{
+        float: right;
+        padding: 5px;
+        width: 210px;
+        img{
+            background: none repeat scroll 0 0 #FFFFFF;
+            border: 1px solid #EEEEEE;
+            float: right;
+            padding: 1px;
+        }
+        span{
+            float: left;
+            font-size: 12px;
+            padding-right: 5px;
+            width: 140px;
+        }
+    }
+}
+
+.featured-item{
+    width: 400px;
+    float: left;
+    position: relative;
+    height: 250px;
+    #post_title{
+        background: none repeat scroll 0 0 #000000;
+        bottom: 0px;
+        opacity: 0.8;
+        padding: 7px;
+        position: absolute;
+        width: 386px;
+        a{
+            color: #FFFFFF;
+            font-size: 17px;
+        }
+    }
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+
+.issue{
+    img{
+        border: 1px solid #459DD3;
+        .box-shadow(0 1px 2px 1px #A5A5A5);
+        width: 85px;
+    }
+    #issue-options{
+        float: left;
+        margin: 15px 0 0;
+        width: 175px;
+    }
+    .read-link, .download-link, .explore-link{
+        font-family: GESSTwoMedium;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 0;
+        padding: 9px 35px 9px 9px;
+    }
+    .read-link{
+        background: url("http://localhost/wordpress/wp-content/themes/elkhabar/files/css/images/read.png") no-repeat scroll right 0 transparent;
+    }
+    .download-link{
+        background: url("http://localhost/wordpress/wp-content/themes/elkhabar/files/css/images/download.png") no-repeat scroll right 0 transparent;
+    }
+    .explore-link{
+        background: url("http://localhost/wordpress/wp-content/themes/elkhabar/files/css/images/explore.png") no-repeat scroll right 0 transparent;
+    }
+    li{
+        margin: 0 10px 20px 0;
+    }
+}
+
